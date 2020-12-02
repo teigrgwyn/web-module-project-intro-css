@@ -22,29 +22,38 @@ vertical-align: baseline;
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 * {
     border: 1px solid gray;
-    max-width: 100%;
-    padding: 0;
-}
-
-
-.navbar a {
-    margin: 0 7.5%;
-    padding: 2.5%;
-    text-decoration: none;
-    border: 2px solid black;
 }
 
 body {
+    max-width: 100%;
     margin: 5%;
+    font-family: "Roboto Mono";
 }
 
-.section-top p {
-    display: block;
-    
+.navbar a {
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 90px;
+    margin: 0 7.5%;
+    padding: 0.5%;
+}
+
+.section-top h1 {
+    font-family: "Chelsea Market";
 }
 .section-top img {
     width: 25%;
     border-radius: 100%;
+}
+.section-top p {
+    display: block;
+    
 }
