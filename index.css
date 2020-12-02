@@ -26,15 +26,57 @@ vertical-align: baseline;
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
-    border: 1px solid gray;
-}
-
-body {
+    border: 1px solid black;
     max-width: 100%;
-    margin: 5%;
-    font-family: "Roboto Mono";
 }
 
+html {
+    font-family: "Roboto Mono";
+    font-size: small;
+}
+
+header {
+    margin: 2.5%;
+}
+
+#nav1 {
+    background-color: #FF764E;
+}
+#nav2 {
+    background-color: #5ED3EB;
+}
+#nav3 {
+    background-color: #FFCD69;
+}
+
+.section-top img {
+    width: 25%;
+    border-radius: 100%;
+}
+.section-top h1 {
+    font-family: "Chelsea Market";
+    font-size: xx-large;
+}
+
+.section-mid {
+    background-color: #DDB9A3;
+}
+
+.section-bot {
+    font-size: x-small;
+}
+.section-bot img {
+    width: 10%;
+}
+
+footer section {
+    overflow: hidden;
+}
+footer img {
+    margin-bottom: -25%;
+}
+
+/*
 .navbar a {
     display: inline-block;
     font-size: small;
@@ -42,18 +84,34 @@ body {
     text-decoration: none;
     border-radius: 15px;
     width: 90px;
-    margin: 0 7.5%;
+    margin: 0 9.25%;
     padding: 0.5%;
 }
 
-.section-top h1 {
-    font-family: "Chelsea Market";
+.section-top {
+    display: inline-block;
 }
 .section-top img {
+    position: absolute;
     width: 25%;
     border-radius: 100%;
 }
-.section-top p {
+.section-top h1, .section-top p {
     display: block;
-    
+    text-align: center;
+    margin-left: 75%;
 }
+.section-top h1 {
+    font-family: "Chelsea Market";
+    font-size: xx-large;
+}
+.section-top p {
+    font-size: small;
+    margin-left: 40%;
+    width: 60%;
+}
+.section-top #p2 {
+    margin-left: 37.5%;
+    width: 47.5%;
+}
+*/
